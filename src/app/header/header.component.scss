@@ -62,3 +62,14 @@ header h1 {
 header p {
   margin: 30px 0;
 }
+
+.toggleNav {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+body.show-nav {
+  transform: translateX(200px);
+}

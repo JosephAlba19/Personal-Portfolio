@@ -18,13 +18,6 @@ body.show-nav {
   transform: translateX(200px);
 }
 
-.toggleNav {
-  background-color: rgba(0, 0, 0, 0.3);
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
 button, input[type='submit'] {
   background-color: var(--secondary-color);
   border: 0;
@@ -38,10 +31,3 @@ button:focus {
   outline: none;
 }
 
-.close-btn {
-  background: transparent;
-  font-size: 25px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
